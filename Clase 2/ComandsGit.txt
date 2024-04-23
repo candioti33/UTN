@@ -1,0 +1,2 @@
+Git Add . (Agrega archivos al Staging)
+Git commit -m "" (Añade un mensaje a los archivos que estan en Staging y crea una version)
