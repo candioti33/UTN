@@ -1,0 +1,83 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans";
+}
+
+h1 {
+    font: 28px;
+    color: rgb(47,28,106);
+    text-align: center;
+    }
+
+.contenedor{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+.tarjetas{
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    width: 350px;
+    margin: 20px;
+    border:solid 1px #673de646;
+    border-radius: 2%;
+}
+
+.tarjetas .tarjeta-info{
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+    padding-top: 40px;
+    padding: 40px 30px 40px 30px;
+    gap: 20px;
+}
+
+.tarjetas .tarjeta-info .div_estrella{
+    padding-left: 2px;
+    color:#673DE6;
+}
+
+.tarjetas .tarjeta-info .text{
+    font-size: 14px;
+    color:#2f1c6a;
+    font-weight: 500;
+}
+
+.tarjetas .tarjeta-info .historia a{
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.usuario-info{
+    height: 110px;
+    display: flex;
+    background-color: #F4F5FF;
+    border-top: 1px solid #d5dfff;
+    padding: 20px 30px;
+    gap: 10px;
+}
+
+.usuario-info .user-pic img{
+    border-radius: 100px;
+    width: 64px;
+}
+
+.usuario-info .usuario-name {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.usuario-info .usuario-name h2{
+    font-size: 20px;
+    color:#2f1c6a;
+}
+
+.usuario-info .usuario-name h3{
+    font-weight: 250;
+    font-size: 14px;
+}
